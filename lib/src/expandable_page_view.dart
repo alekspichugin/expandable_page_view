@@ -280,7 +280,6 @@ class _ExpandablePageViewState extends State<ExpandablePageView> {
         clipBehavior: widget.clipBehavior,
         scrollBehavior: widget.scrollBehavior,
         scrollDirection: widget.scrollDirection,
-        padEnds: widget.padEnds,
       );
     }
     return PageView(
@@ -296,7 +295,6 @@ class _ExpandablePageViewState extends State<ExpandablePageView> {
       clipBehavior: widget.clipBehavior,
       scrollBehavior: widget.scrollBehavior,
       scrollDirection: widget.scrollDirection,
-      padEnds: widget.padEnds,
     );
   }
 
